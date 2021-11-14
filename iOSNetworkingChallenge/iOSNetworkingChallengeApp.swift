@@ -12,6 +12,7 @@ struct iOSNetworkingChallengeApp: App {
     var body: some Scene {
         WindowGroup {
             AllVideosView()
+                .environmentObject(LectureModel())
         }
     }
 }
