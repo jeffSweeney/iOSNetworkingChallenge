@@ -11,6 +11,9 @@
 		636D683327417DB700567609 /* AllVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D683227417DB700567609 /* AllVideosView.swift */; };
 		636D683527417DB900567609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636D683427417DB900567609 /* Assets.xcassets */; };
 		636D683827417DB900567609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636D683727417DB900567609 /* Preview Assets.xcassets */; };
+		636D6843274188B800567609 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D6842274188B800567609 /* Constants.swift */; };
+		636D68452741891F00567609 /* LectureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D68442741891E00567609 /* LectureModel.swift */; };
+		636D68472741897000567609 /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D68462741897000567609 /* Lecture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		636D683227417DB700567609 /* AllVideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVideosView.swift; sourceTree = "<group>"; };
 		636D683427417DB900567609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636D683727417DB900567609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		636D6842274188B800567609 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		636D68442741891E00567609 /* LectureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureModel.swift; sourceTree = "<group>"; };
+		636D68462741897000567609 /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,7 @@
 				636D683E27417DE900567609 /* Views */,
 				636D684027417E7C00567609 /* ViewModels */,
 				636D683F27417E6D00567609 /* Models */,
+				636D68412741888900567609 /* Constants */,
 				636D683427417DB900567609 /* Assets.xcassets */,
 				636D683627417DB900567609 /* Preview Content */,
 			);
@@ -80,6 +87,7 @@
 		636D683F27417E6D00567609 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				636D68462741897000567609 /* Lecture.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,8 +95,17 @@
 		636D684027417E7C00567609 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				636D68442741891E00567609 /* LectureModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		636D68412741888900567609 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				636D6842274188B800567609 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +180,9 @@
 			files = (
 				636D683327417DB700567609 /* AllVideosView.swift in Sources */,
 				636D683127417DB700567609 /* iOSNetworkingChallengeApp.swift in Sources */,
+				636D68452741891F00567609 /* LectureModel.swift in Sources */,
+				636D6843274188B800567609 /* Constants.swift in Sources */,
+				636D68472741897000567609 /* Lecture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
