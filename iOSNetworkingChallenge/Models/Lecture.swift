@@ -9,6 +9,8 @@
 
 import Foundation
 
-struct Lecture {
-    // TODO: Implement
+struct Lecture: Decodable, Identifiable {
+    var id: Int
+    var title: String
+    var url: String
 }
