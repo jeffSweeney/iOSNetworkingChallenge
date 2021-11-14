@@ -11,7 +11,7 @@ import SwiftUI
 struct iOSNetworkingChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AllVideosView()
         }
     }
 }

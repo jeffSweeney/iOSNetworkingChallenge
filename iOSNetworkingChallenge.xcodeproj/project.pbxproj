@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		636D683127417DB700567609 /* iOSNetworkingChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D683027417DB700567609 /* iOSNetworkingChallengeApp.swift */; };
-		636D683327417DB700567609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D683227417DB700567609 /* ContentView.swift */; };
+		636D683327417DB700567609 /* AllVideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636D683227417DB700567609 /* AllVideosView.swift */; };
 		636D683527417DB900567609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636D683427417DB900567609 /* Assets.xcassets */; };
 		636D683827417DB900567609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636D683727417DB900567609 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		636D682D27417DB700567609 /* iOSNetworkingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSNetworkingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		636D683027417DB700567609 /* iOSNetworkingChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSNetworkingChallengeApp.swift; sourceTree = "<group>"; };
-		636D683227417DB700567609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		636D683227417DB700567609 /* AllVideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllVideosView.swift; sourceTree = "<group>"; };
 		636D683427417DB900567609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636D683727417DB900567609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				636D683027417DB700567609 /* iOSNetworkingChallengeApp.swift */,
-				636D683227417DB700567609 /* ContentView.swift */,
+				636D683E27417DE900567609 /* Views */,
+				636D684027417E7C00567609 /* ViewModels */,
+				636D683F27417E6D00567609 /* Models */,
 				636D683427417DB900567609 /* Assets.xcassets */,
 				636D683627417DB900567609 /* Preview Content */,
 			);
@@ -65,6 +67,28 @@
 				636D683727417DB900567609 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		636D683E27417DE900567609 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				636D683227417DB700567609 /* AllVideosView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		636D683F27417E6D00567609 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		636D684027417E7C00567609 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				636D683327417DB700567609 /* ContentView.swift in Sources */,
+				636D683327417DB700567609 /* AllVideosView.swift in Sources */,
 				636D683127417DB700567609 /* iOSNetworkingChallengeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
