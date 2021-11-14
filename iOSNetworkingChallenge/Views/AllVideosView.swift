@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct AllVideosView: View {
+    @EnvironmentObject var model: LectureModel
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(model.lectures) { lecture in
+                NavigationLink(destination: {LectureView(lecture: lecture)}) {
+                    Text(lecture.title)
+                }
+            }
+            .navigationBarTitle("All Videos")
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         AllVideosView()
+            .environmentObject(LectureModel())
     }
 }
